@@ -79,7 +79,7 @@ public class CommonUtilies {
 
 		JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
 
-		js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid blue;');", element);
+		js.executeScript("arguments[0].setAttribute('style', 'background: red ; border: 2px solid blue;');", element);
 	} 
 
 }
